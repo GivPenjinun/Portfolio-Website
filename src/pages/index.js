@@ -76,7 +76,7 @@ export default function Home() {
                 <Link
                   href="/Resume.pdf"
                   target={"_blank"}
-                  className="md:p-2 md:text-base md:px-4 dark:text-dark dark:bg-light hover:dark:bg-dark hover:dark:border-light hover:dark:text-light flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
+                  className="md:p-2 md:text-base md:px-3 dark:text-dark dark:bg-light hover:dark:bg-dark hover:dark:border-light hover:dark:text-light flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark"
                   download={true}
                 >
                   Resume <ExternalLink className="w-7 ml-1" />
