@@ -64,7 +64,7 @@ const FeaturedProjects = ({
   );
 };
 
-const projects = () => {
+const Projects = () => {
   return (
     <>
       <TransitionEffect />
@@ -116,4 +116,4 @@ const projects = () => {
   );
 };
 
-export default projects;
+export default Projects;

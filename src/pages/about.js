@@ -7,7 +7,7 @@ import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import TransitionEffect from "@/components/TransitionEffect";
 
-const about = () => {
+const About = () => {
   return (
     <>
       <TransitionEffect />
@@ -22,7 +22,7 @@ const about = () => {
             <div className="ml-16 xl:ml-0 flex text-xl flex-col col-span-3 xl:col-span-8 xl:order-2 items-start justify-center gap-2">
               <h2 className="font-bold uppercase text-dark/75 dark:text-light"></h2>
               <p className="font-medium mb-4">
-                I'm Penjinun Wattanaparueda. I have a strong interest in a
+                I&#39;m Penjinun Wattanaparueda. I have a strong interest in a
                 junior web Developer position. With a passion for coding and a
                 solid foundation in web development, I am excited to contribute
                 my skills and enthusiasm to your team.
@@ -33,7 +33,8 @@ const about = () => {
                 with proficiency in popular programming languages such as HTML,
                 CSS, and JavaScript. I am eager to leverage my knowledge to
                 create responsive, user-friendly, and visually appealing web
-                applications that align with your company's goals and vision.
+                applications that align with your company&#39;s goals and
+                vision.
               </p>
               <p className="font-medium my-4">
                 {" "}
@@ -65,4 +66,4 @@ const about = () => {
   );
 };
 
-export default about;
+export default About;

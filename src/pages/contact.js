@@ -7,7 +7,7 @@ import { useForm } from "react-hook-form";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
-const contact = () => {
+const Contact = () => {
   const form = useRef();
   const {
     register,
@@ -148,4 +148,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;

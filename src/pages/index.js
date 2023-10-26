@@ -59,7 +59,7 @@ export default function Home() {
               />
 
               <h1 className="text-4xl font-bold my-5 text-dark dark:text-light xl:!text-3xl lg:!text-center lg:!text-4xl md:!text-3xl sm:!text-xl">
-                I'm a{" "}
+                I&#39;m a{" "}
                 <span
                   className="text-primary dark:text-primaryDark"
                   style={{ whiteSpace: "pre" }}
@@ -91,10 +91,4 @@ export default function Home() {
   );
 }
 
-// edit text
-//ใส่resume
-//ย้ายemailไปnavbarและใส่icon email
-//เปลี่ยนรูปในนี้และในabout
-//แก้ไขข้อมูลใน experience
-//ใส่alert message was sent ใน contact
 //ใส่คอมเม้นอธิบายการทำdark mode
