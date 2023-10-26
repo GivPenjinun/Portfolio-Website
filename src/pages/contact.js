@@ -50,7 +50,7 @@ const contact = () => {
             text="Contact Me"
             className="mb-20 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
-          <div className="w-2/3 flex items-center justify-center rounded-3xl border border-solid border-dark bg-light dark:bg-dark dark:border-light shadow-2xl p-12 relative rounded-br-2xl">
+          <div className="w-2/3 flex items-center justify-center rounded-3xl border border-solid border-dark bg-light dark:bg-dark dark:border-light shadow-2xl p-12 xs:p-4 md:w-3/4 sm:w-full lg:w-3/4 relative rounded-br-2xl">
             <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2.5rem] bg-dark rounded-br-3xl dark:bg-light" />
             <div className="w-full">
               <form
