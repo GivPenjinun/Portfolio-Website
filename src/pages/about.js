@@ -13,10 +13,13 @@ const about = () => {
       <TransitionEffect />
       <main className="text-dark flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
-          <AnimatedText text="Work With Passion!" className="mb-16" />
-          <div className="grid grid-cols-6 gap-18 w-full justify-items-center">
+          <AnimatedText
+            text="Work With Passion!"
+            className="mb-16 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
+          />
+          <div className="grid grid-cols-6 gap-18 sm:gap-8 w-full justify-items-center">
             {/*หากมีจำนวนprojectทางด้านขวาใช้ grid-cols-8 */}
-            <div className="ml-16 flex text-xl flex-col col-span-3 items-start justify-center gap-2">
+            <div className="ml-16 xl:ml-0 flex text-xl flex-col col-span-3 xl:col-span-8 xl:order-2 items-start justify-center gap-2">
               <h2 className="font-bold uppercase text-dark/75 dark:text-light"></h2>
               <p className="font-medium mb-4">
                 I'm Penjinun Wattanaparueda. I have a strong interest in a
@@ -43,7 +46,7 @@ const about = () => {
                 your next project.
               </p>
             </div>
-            <div className="col-span-3 relative max-w-[400px] h-max rounded-2xl border-2 border-solid border-dark bg-light dark:border-light dark:bg-dark p-8">
+            <div className="col-span-3 xl:mb-16 sm:mb-8 xl:col-span-8 md:col-span-8 xl:items-center xl:order-1 relative max-w-[400px] h-max rounded-2xl border-2 border-solid border-dark bg-light dark:border-light dark:bg-dark p-8">
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-2xl bg-dark dark:bg-light" />
               <Image
                 src={profilePic}
