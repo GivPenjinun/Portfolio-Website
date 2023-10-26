@@ -81,7 +81,7 @@ const Projects = () => {
                 title="Petsitter Application"
                 summary="Pet sitter applications were developed for pet lovers to find suitable pet sitters for their lovely pets.                
                 This is the final project from boot camp for working as a team by using the Agile and Scrum methods, studying, and testing our skills. Now deployed by Render"
-                link="https://github.com/GivPenjinun/Pet-Sitter-App"
+                link="https://pet-sitter-app-client.vercel.app/"
                 github="https://github.com/GivPenjinun/Pet-Sitter-App"
                 project="https://pet-sitter-app-client.vercel.app/"
                 img={project1}
@@ -92,7 +92,7 @@ const Projects = () => {
                 type="Techstack: Next.js, Frammer-motion, Tailwind"
                 title="Portfolio Website"
                 summary="To introduce myself while developing my skills by using Next.js and Frammer-motion for the first time. To show all of my skills, experience, education, and projects."
-                link="https://github.com/GivPenjinun/Portfolio-Website"
+                link="/"
                 github="https://github.com/GivPenjinun/Portfolio-Website"
                 project="/"
                 img={project3}
@@ -103,7 +103,7 @@ const Projects = () => {
                 type="Techstack: React, Node.js, Express, PostgresSQL"
                 title="Todo-App"
                 summary="Todo Application that has CRUD API so it can create, update, delete and read all lists by using Postgres and install the database on Vercel. Now, Deployed by vercel"
-                link="https://github.com/GivPenjinun/todoapp-postgres/tree/main"
+                link="https://todoapp-postgres-client.onrender.com"
                 github="https://github.com/GivPenjinun/todoapp-postgres/tree/main"
                 project="https://todoapp-postgres-client.onrender.com"
                 img={project2}
