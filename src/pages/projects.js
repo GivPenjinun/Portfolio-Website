@@ -4,9 +4,9 @@ import React from "react";
 import Link from "next/link";
 import { GithubIcon } from "@/components/Icons";
 import Image from "next/image";
-import project1 from "../../public/images/projects/petsitter.JPG";
-import project2 from "../../public/images/projects/todoapp.JPG";
-import project3 from "../../public/images/projects/portfolio-web.JPG";
+import project1 from "../../public/images/petsitter.png";
+import project2 from "../../public/images/todoapp.png";
+import project3 from "../../public/images/portfolio-web.png";
 import TransitionEffect from "@/components/TransitionEffect";
 import { motion } from "framer-motion";
 
