@@ -9,8 +9,8 @@ const Footer = () => {
       <Layout className="py-8 flex items-center justify-end">
         {/* <span>{new Date().getFullYear()}&copy;All Rights Reserved.</span> */}
 
-        <Link href="/" className="animate-bounce">
-          Back
+        <Link href="#" className="animate-bounce">
+          <UpIcon />
         </Link>
       </Layout>
     </footer>

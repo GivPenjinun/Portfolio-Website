@@ -7,6 +7,9 @@ import Image from "next/image";
 import project1 from "../../public/images/petsitter.png";
 import project2 from "../../public/images/todoapp.png";
 import project3 from "../../public/images/portfolio-web.png";
+import project4 from "../../public/images/tourist-attraction.png";
+import project5 from "../../public/images/basic-web-resume.png";
+import project6 from "../../public/images/travel-web1.png";
 import TransitionEffect from "@/components/TransitionEffect";
 import { motion } from "framer-motion";
 
@@ -107,6 +110,39 @@ const Projects = () => {
                 github="https://github.com/GivPenjinun/todoapp-postgres/tree/main"
                 project="https://todoapp-postgres-client.onrender.com"
                 img={project2}
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProjects
+                type="Techstack: React"
+                title="Travel Agency Website"
+                summary="This is responsive travel agency website but right now it has only frontend side."
+                link="https://superlative-parfait-10da34.netlify.app/"
+                github="https://github.com/GivPenjinun/travel-web-1"
+                project="https://superlative-parfait-10da34.netlify.app/"
+                img={project6}
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProjects
+                type="Techstack: React, Node.js, Express, "
+                title="Tourist Attraction"
+                summary="Tourist Attraction has searching feature built with debounce callback function. With this feature, users can insert keywords or click on tag for searching interesting place. Users also can copy link for the website they are interesting"
+                link="https://github.com/GivPenjinun/tourist-attraction"
+                github="https://github.com/GivPenjinun/tourist-attraction"
+                project="https://github.com/GivPenjinun/tourist-attraction"
+                img={project4}
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProjects
+                type="Techstack: React"
+                title="Basic Resume Website"
+                summary="This basic resume website is responsive but still has only frontend side at the moment"
+                link="https://dashing-profiterole-517d3c.netlify.app/"
+                github="https://github.com/GivPenjinun/web-resume"
+                project="https://dashing-profiterole-517d3c.netlify.app/"
+                img={project5}
               />
             </div>
           </div>
