@@ -109,7 +109,7 @@ export default function NavBar() {
               <LinkedinIcon />
             </motion.a>
             <motion.a
-              href="https://github.com/GivPenjinun?tab=repositories"
+              href="https://github.com/GivPenjinun"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}

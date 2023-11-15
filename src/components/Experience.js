@@ -73,7 +73,7 @@ const Experience = () => {
             position=" e-commerce business owner"
             company="Self-employ"
             time="2017-2022"
-            work="Imported products from China. Advertised on online platforms, both organic and paid traffic, and did SEO and SEM by using social media platforms such as Facebook, Google, Youtube, e-commerce websites, Lazada, LineOA, and Instagram; made 20–35% in profit. Created content for core customers that is suitable for specific platforms."
+            work="Imported products from China. Advertised on online platforms, both organic and paid traffic, and did SEO and SEM by using social media platforms such as Facebook, Google, Youtube, e-commerce websites, Lazada, LineOA, and Instagram; made 20–35% in profit. Created contents for core customers which are suitable for specific platforms."
           />
 
           <Details
