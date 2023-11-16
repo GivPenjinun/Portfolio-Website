@@ -18,7 +18,7 @@ export default function Home() {
 
   React.useEffect(() => {
     const options = {
-      strings: ["Fullstack", "Backend", "Frontend", "Fullstack"],
+      strings: ["Full Stack", "Backend", "Frontend", "Full Stack"],
       typeSpeed: 50,
       backSpeed: 40,
       backDelay: 1000,
