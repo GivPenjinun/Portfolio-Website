@@ -90,5 +90,3 @@ export default function Home() {
     </>
   );
 }
-
-//ใส่คอมเม้นอธิบายการทำdark mode

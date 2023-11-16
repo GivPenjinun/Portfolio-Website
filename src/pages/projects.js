@@ -92,7 +92,7 @@ const Projects = () => {
             </div>
             <div className="col-span-12">
               <FeaturedProjects
-                type="Techstack: Next.js, Frammer-motion, Tailwind"
+                type="Techstack: Next.js, Frammer-motion, Tailwind, Email JS"
                 title="Portfolio Website"
                 summary="To introduce myself while developing my skills by using Next.js and Frammer-motion for the first time. To show all of my skills, experience, education, and projects."
                 link="/"
