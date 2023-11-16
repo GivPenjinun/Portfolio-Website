@@ -82,8 +82,8 @@ const Projects = () => {
               <FeaturedProjects
                 type="Techstack: React, MUI, Tailwind, Supabase, Prisma, Node.js, Express, Postgres"
                 title="Petsitter Application"
-                summary="Pet sitter applications were developed for pet lovers to find suitable pet sitters for their lovely pets.                
-                This is the final project from boot camp for working as a team by using the Agile and Scrum methods, studying, and testing our skills. Now deployed by Render"
+                summary="Pet sitter applications were developed for pet lovers to find suitable pet sitters for their lovely pets.
+                This app can search and filter for specific petsitter. It has a user dashboard feature that can upload photos and edit users' information, as well as display all booking history. Now deployed by Render"
                 link="https://pet-sitter-app-client.vercel.app/"
                 github="https://github.com/GivPenjinun/Pet-Sitter-App"
                 project="https://pet-sitter-app-client.vercel.app/"
