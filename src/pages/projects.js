@@ -105,7 +105,7 @@ const Projects = () => {
               <FeaturedProjects
                 type="Techstack: React, Node.js, Express, PostgresSQL"
                 title="Todo-App"
-                summary="Todo Application that has CRUD API so it can create, update, delete and read all lists by using Postgres and install the database on Vercel. Now, Deployed by vercel"
+                summary="Todo Application has register and login feature. It also has CRUD API so it can create, update, delete and read all lists by using Postgres and install the database on Vercel. Now, Deployed by vercel"
                 link="https://todoapp-postgres-client.onrender.com"
                 github="https://github.com/GivPenjinun/todoapp-postgres/tree/main"
                 project="https://todoapp-postgres-client.onrender.com"
@@ -116,7 +116,7 @@ const Projects = () => {
               <FeaturedProjects
                 type="Techstack: React"
                 title="Travel Agency Website"
-                summary="This is responsive travel agency website but right now it has only frontend side."
+                summary="This is responsive UI travel agency website."
                 link="https://superlative-parfait-10da34.netlify.app/"
                 github="https://github.com/GivPenjinun/travel-web-1"
                 project="https://superlative-parfait-10da34.netlify.app/"
