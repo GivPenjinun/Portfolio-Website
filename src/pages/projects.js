@@ -10,6 +10,7 @@ import project3 from "../../public/images/portfolio-web.png";
 import project4 from "../../public/images/tourist-attraction.png";
 import project5 from "../../public/images/basic-web-resume.png";
 import project6 from "../../public/images/travel-web1.png";
+import project7 from "../../public/images/restaurant-review.png";
 import TransitionEffect from "@/components/TransitionEffect";
 import { motion } from "framer-motion";
 
@@ -80,10 +81,10 @@ const Projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 mg:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProjects
-                type="Techstack: React, MUI, Tailwind, Supabase, Prisma, Node.js, Express, Postgres"
+                type="Techstack: React, MUI, Tailwind, Supabase, Prisma, Node.js, Express, SQL"
                 title="Petsitter Application"
-                summary="Pet sitter applications were developed for pet lovers to find suitable pet sitters for their lovely pets.
-                This app can search and filter for specific petsitter. It has a user dashboard feature that can upload photos and edit users' information, as well as display all booking history. Now deployed by Render"
+                summary="Pet sitter applications were developed for pet lovers to find suitable pet sitters for their lovely pets. This app has two roles: pet owner and pet sitter. Each role has its own paths and dashbords.
+                This app can search for and filter for specific petsitters. It has a user dashboard feature that can upload photos, edit users' information, create a new pet's profile, edit or delete, as well as display all booking history. In addition, pet sitters can manage their services and all bookings. Now deployed by Render"
                 link="https://pet-sitter-app-client.vercel.app/"
                 github="https://github.com/GivPenjinun/Pet-Sitter-App"
                 project="https://pet-sitter-app-client.vercel.app/"
@@ -125,7 +126,7 @@ const Projects = () => {
             </div>
             <div className="col-span-12">
               <FeaturedProjects
-                type="Techstack: React, Node.js, Express, "
+                type="Techstack: React, Node.js, Express"
                 title="Tourist Attraction"
                 summary="Tourist Attraction has searching feature built with debounce callback function. With this feature, users can insert keywords or click on tag for searching interesting place. Users also can copy link for the website they are interesting"
                 link="https://github.com/GivPenjinun/tourist-attraction"
@@ -136,9 +137,20 @@ const Projects = () => {
             </div>
             <div className="col-span-12">
               <FeaturedProjects
+                type="Techstack: React, Node.js, Postgres"
+                title="Restaurant review app"
+                summary="This is an app for reviewing and rating restaurants. You can review by adding your opinion, editing, or rating. The app will show all reviews and calculate the average rating for each restaurant by using CRUD API and Postgres's aggregate function."
+                link="https://github.com/GivPenjinun/restaurants-reviews-app/"
+                github="https://github.com/GivPenjinun/restaurants-reviews-app/"
+                project="https://github.com/GivPenjinun/restaurants-reviews-app/"
+                img={project7}
+              />
+            </div>
+            <div className="col-span-12">
+              <FeaturedProjects
                 type="Techstack: React"
                 title="Basic Resume Website"
-                summary="This basic resume website is responsive but still has only frontend side at the moment"
+                summary="A basic responsive resume website."
                 link="https://dashing-profiterole-517d3c.netlify.app/"
                 github="https://github.com/GivPenjinun/web-resume"
                 project="https://dashing-profiterole-517d3c.netlify.app/"
