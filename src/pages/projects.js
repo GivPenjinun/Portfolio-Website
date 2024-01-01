@@ -13,6 +13,7 @@ import project6 from "../../public/images/travel-web1.png";
 import project7 from "../../public/images/restaurant-review.png";
 import TransitionEffect from "@/components/TransitionEffect";
 import { motion } from "framer-motion";
+import projectInfo from "@/projectInfo";
 
 const FramerImage = motion(Image);
 
@@ -79,84 +80,21 @@ const Projects = () => {
             className="mb-32 lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 mg:gap-y-24 sm:gap-x-0">
-            <div className="col-span-12">
-              <FeaturedProjects
-                type="Techstack: React, MUI, Tailwind, Supabase, Prisma, Node.js, Express, SQL"
-                title="Petsitter Application"
-                summary="Pet sitter applications were developed for pet lovers to find suitable pet sitters for their lovely pets. This app has two roles: pet owner and pet sitter. Each role has its own paths and dashbords.
-                This app can search for and filter for specific petsitters. It has a user dashboard feature that can upload photos, edit users' information, create a new pet's profile, edit or delete, as well as display all booking history. In addition, pet sitters can manage their services and all bookings. Now deployed by Render"
-                link="https://pet-sitter-app-client.vercel.app/"
-                github="https://github.com/GivPenjinun/Pet-Sitter-App"
-                project="https://pet-sitter-app-client.vercel.app/"
-                img={project1}
-              />
-            </div>
-            <div className="col-span-12">
-              <FeaturedProjects
-                type="Techstack: Next.js, Frammer-motion, Tailwind, Email JS"
-                title="Portfolio Website"
-                summary="To introduce myself while developing my skills by using Next.js and Frammer-motion for the first time. To show all of my skills, experience, education, and projects."
-                link="/"
-                github="https://github.com/GivPenjinun/Portfolio-Website"
-                project="/"
-                img={project3}
-              />
-            </div>
-            <div className="col-span-12">
-              <FeaturedProjects
-                type="Techstack: React, Node.js, Express, PostgresSQL"
-                title="Todo-App"
-                summary="Todo Application has register and login feature. It also has CRUD API so it can create, update, delete and read all lists by using Postgres and install the database on Vercel. Now, Deployed by vercel"
-                link="https://todoapp-postgres-client.onrender.com"
-                github="https://github.com/GivPenjinun/todoapp-postgres/tree/main"
-                project="https://todoapp-postgres-client.onrender.com"
-                img={project2}
-              />
-            </div>
-            <div className="col-span-12">
-              <FeaturedProjects
-                type="Techstack: React"
-                title="Travel Agency Website"
-                summary="This is responsive UI travel agency website."
-                link="https://superlative-parfait-10da34.netlify.app/"
-                github="https://github.com/GivPenjinun/travel-web-1"
-                project="https://superlative-parfait-10da34.netlify.app/"
-                img={project6}
-              />
-            </div>
-            <div className="col-span-12">
-              <FeaturedProjects
-                type="Techstack: React, Node.js, Express"
-                title="Tourist Attraction"
-                summary="Tourist Attraction has searching feature built with debounce callback function. With this feature, users can insert keywords or click on tag for searching interesting place. Users also can copy link for the website they are interesting"
-                link="https://github.com/GivPenjinun/tourist-attraction"
-                github="https://github.com/GivPenjinun/tourist-attraction"
-                project="https://github.com/GivPenjinun/tourist-attraction"
-                img={project4}
-              />
-            </div>
-            <div className="col-span-12">
-              <FeaturedProjects
-                type="Techstack: React, Node.js, Postgres"
-                title="Restaurant review app"
-                summary="This is an app for reviewing and rating restaurants. You can review by adding your opinion, editing, or rating. The app will show all reviews and calculate the average rating for each restaurant by using CRUD API and Postgres's aggregate function."
-                link="https://github.com/GivPenjinun/restaurants-reviews-app/"
-                github="https://github.com/GivPenjinun/restaurants-reviews-app/"
-                project="https://github.com/GivPenjinun/restaurants-reviews-app/"
-                img={project7}
-              />
-            </div>
-            <div className="col-span-12">
-              <FeaturedProjects
-                type="Techstack: React"
-                title="Basic Resume Website"
-                summary="A basic responsive resume website."
-                link="https://dashing-profiterole-517d3c.netlify.app/"
-                github="https://github.com/GivPenjinun/web-resume"
-                project="https://dashing-profiterole-517d3c.netlify.app/"
-                img={project5}
-              />
-            </div>
+            {projectInfo.map((project) => {
+              return (
+                <div key={project.id} className="col-span-12">
+                  <FeaturedProjects
+                    type={project.type}
+                    title={project.title}
+                    summary={project.summary}
+                    link={project.link}
+                    github={project.github}
+                    project={project.project}
+                    img={project.img}
+                  />
+                </div>
+              );
+            })}
           </div>
         </Layout>
       </main>
