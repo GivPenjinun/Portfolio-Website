@@ -51,7 +51,7 @@ const projectInfo = [
     link: "https://todoapp-postgres-client.onrender.com",
     github: "https://github.com/GivPenjinun/todoapp-postgres/tree/main",
     project: "https://todoapp-postgres-client.onrender.com",
-    img: { project2 },
+    img: project2,
   },
   {
     id: 5,
